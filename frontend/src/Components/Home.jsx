@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { Context } from "../Context/Context";
+import "./home.css"
 
 const Home = () => {
   const data = useContext(Context);
@@ -14,7 +15,7 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <div className="homepage">
       <h1>{data?.state?.user?.user?.email}</h1>
       <button onClick={handleLogout}>Logout</button>
     </div>

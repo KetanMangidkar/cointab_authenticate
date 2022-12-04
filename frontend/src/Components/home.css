@@ -1,0 +1,17 @@
+.homepage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.homepage > button {
+  margin: 2rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  width: 10rem;
+  font-size: large;
+}
