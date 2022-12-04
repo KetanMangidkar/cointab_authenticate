@@ -4,7 +4,7 @@ Backend API for a Authentication for website, built using NodeJS, Express, Mongo
 
 ## Documentation for API?
 
-## For start the server go to backend folder and run command "num start",
+## For start the server go to backend folder and run command "npm start",
 
 ## Register
 - Method : POST
